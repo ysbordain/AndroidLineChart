@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionAdd"
+        android:title="Feed new Entry"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/actionClear"
+        android:title="Clear Values"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/actionFeedMultiple"
+        android:title="Fast feed multiple"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/actionToggleAutoScaleMinMax"
+        android:title="Toggle auto scale min/max"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>
